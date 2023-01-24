@@ -1,9 +1,9 @@
 package main
 
 import (
-	"stupix/config"
-	"stupix/db"
-	"stupix/routes"
+	"go-identity-service/config"
+	"go-identity-service/db"
+	"go-identity-service/routes"
 )
 
 func main() {

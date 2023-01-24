@@ -2,8 +2,8 @@ package routes
 
 import (
 	"github.com/gin-gonic/gin"
-	"stupix/controllers"
-	"stupix/middlewares"
+	"go-identity-service/controllers"
+	"go-identity-service/middlewares"
 )
 
 func SetupServer() *gin.Engine {

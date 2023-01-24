@@ -2,11 +2,11 @@ package controllers
 
 import (
 	"fmt"
+	"go-identity-service/models"
+	"go-identity-service/services"
 	"gopkg.in/go-playground/validator.v9"
 	"net/http"
 	"strings"
-	"stupix/models"
-	"stupix/services"
 )
 
 func ValidateUser(user *models.User) (string, int) {

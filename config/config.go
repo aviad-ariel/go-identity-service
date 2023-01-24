@@ -1,7 +1,6 @@
 package config
 
 import (
-	"fmt"
 	"github.com/spf13/viper"
 	"log"
 )
@@ -38,5 +37,4 @@ func LoadConfig(path string) {
 	if marshalError != nil {
 		log.Fatal("cannot marshal config:", marshalError)
 	}
-	fmt.Println(Env)
 }

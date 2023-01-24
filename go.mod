@@ -1,4 +1,4 @@
-module stupix
+module go-identity-service
 
 go 1.19
 

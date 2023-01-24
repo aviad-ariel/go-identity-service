@@ -2,10 +2,10 @@ package controllers
 
 import (
 	"github.com/gin-gonic/gin"
+	"go-identity-service/helpers"
+	"go-identity-service/models"
+	"go-identity-service/services"
 	"net/http"
-	"stupix/helpers"
-	"stupix/models"
-	"stupix/services"
 )
 
 type TokenRequest struct {

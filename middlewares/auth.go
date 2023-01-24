@@ -2,8 +2,8 @@ package middlewares
 
 import (
 	"github.com/gin-gonic/gin"
+	"go-identity-service/helpers"
 	"strings"
-	"stupix/helpers"
 )
 
 func Auth() gin.HandlerFunc {

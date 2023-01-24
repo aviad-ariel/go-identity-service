@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 	"github.com/dgrijalva/jwt-go"
+	"go-identity-service/config"
 	"golang.org/x/crypto/bcrypt"
 	"strconv"
-	"stupix/config"
 	"time"
 )
 

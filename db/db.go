@@ -3,10 +3,10 @@ package db
 import (
 	"context"
 	"fmt"
+	"go-identity-service/config"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/mongo/readpref"
-	"stupix/config"
 )
 
 var (

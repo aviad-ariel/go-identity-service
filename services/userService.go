@@ -2,12 +2,12 @@ package services
 
 import (
 	"context"
+	"go-identity-service/config"
+	"go-identity-service/db"
+	"go-identity-service/helpers"
+	"go-identity-service/models"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
-	"stupix/config"
-	"stupix/db"
-	"stupix/helpers"
-	"stupix/models"
 	"time"
 )
 
